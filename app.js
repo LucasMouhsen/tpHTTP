@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 port = 3030
 const path = require("path")
-app.listen(port,() => console.log("Servidor corriendo en http://localhost:"+port))
+app.listen(port,() => console.log("Servidor corriendo en http://localhost:"+port+"/home"))
 
 app.use(express.static("public"))
 
